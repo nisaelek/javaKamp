@@ -11,7 +11,7 @@ Category category1=new Category(1,"Kurslarım");
 Category category2=new Category(2,"Tüm Kurslar");
 Category category3=new Category(3,"Kursa Hazırlık");
 Category category4=new Category(4,"Sıkça Sorulan Sorular");
-Category[] category= {category1,category2,category3,category4};
+Category[] categories= {category1,category2,category3,category4};
 
 LessonManager lManager= new LessonManager();
 
@@ -20,6 +20,14 @@ for(Lessons lesson:lessons){
 	System.out.println(lesson.lessonName);
 
     lManager.addToRegister(lesson);
+   
+}
+
+for(Category category:categories){
+	   
+	System.out.println(category.categoryName);
+
+  
    
 }
 }

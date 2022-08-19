@@ -5,7 +5,7 @@ public class Lessons {
 	 String lessonName;
 	 int completionRate;
 	 String teacherName;
-	 
+public Lessons () {}
   public Lessons (int Id,
 	 String lessonName,
 	 int completionRate,
